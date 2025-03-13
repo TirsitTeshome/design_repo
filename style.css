@@ -1,0 +1,568 @@
+body {
+    padding: 0;
+    overflow-x: hidden;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: carra;
+    src: url(font/MacondoSwashCaps-Regular.ttf);
+}
+
+@font-face {
+    font-family: ikea;
+    src: url(font/FatSansRound.ttf)
+}
+
+@font-face {
+    font-family: desenio;
+    src: url(font/MagicalStylishSansSerifDemo-qLKq.otf)
+}
+
+
+.all {
+    width: 82%;
+    margin-left: 10%;
+
+}
+
+.inverted {
+    width: 700px;
+    background-color: #474747;
+    height: 600px;
+    right: 0;
+    top: 0%;
+    border-radius: 70px;
+    transform: rotate(-35deg);
+    z-index: -1;
+    position: absolute;
+    margin-top: -10%;
+    margin-right: -12%;
+    overflow: hidden;
+}
+
+.carra {
+    font-family: carra;
+    font-size: x-large;
+    color: #202020;
+
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
+    color: #F7F5F2;
+    font-size: 25px;
+    margin-right: 2%;
+    margin-top: 20px;
+}
+
+.icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.yellow-dot {
+    position: absolute;
+    top: 10px;
+    right: -8px;
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: black;
+
+}
+
+.contents {
+
+    padding-top: 40px;
+    margin: 0% auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cont {
+    margin-top: 30px;
+}
+
+.cont a {
+    text-decoration: none;
+    color: #202020;
+    margin-left: 15px;
+
+}
+
+.first-section {
+    display: flex;
+    width: 100%;
+    height: 90Vh;
+    justify-content: space-between;
+    margin-top: 5.8%;
+}
+
+.sentences {
+    margin-top: 35px;
+    font-size: 17px;
+    width: 50%;
+    height: 100%;
+    line-height: 1.5;
+}
+
+.sentences p {
+    margin-bottom: 20px;
+}
+
+#box {
+    border: dashed 2px;
+    border-color: gray;
+}
+
+h1 {
+    font-size: 60px;
+    margin-top: 10pxpx;
+}
+
+
+.image {
+    margin-right:
+
+}
+
+.image img {
+    border-radius: 25px;
+    height: 650px;
+    width: 680px;
+    object-fit: fill;
+
+}
+
+button {
+    border-radius: 40px;
+    background-color: gray;
+    font-size: 15px;
+    height: 65px;
+    width: 200px;
+    color: rgba(255, 255, 255, 0.445);
+}
+
+.button {
+    background-color: #474747;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.play i {
+    padding: 10px;
+    background-color: #a2a2a1;
+    color: black;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.play {
+    background-color: #f7f5f2;
+    border: none;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+.numbers {
+    display: flex;
+    gap: 80px;
+    font-size: 27px;
+    margin-top: 7%;
+}
+
+.description {
+    display: flex;
+    gap: 30px;
+    margin-top: -3%
+}
+
+.logos {
+    display: flex;
+    gap: 30px;
+    font-size: 45px;
+    margin-bottom: 80px;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: -4%;
+    color: #a2a2a1;
+
+}
+
+#ikea {
+    font-family: ikea;
+}
+
+#diptyque {
+    margin-top: 50px;
+}
+
+#desenio {
+    font-family: desenio;
+    margin-top: 57px;
+}
+
+#benuta {
+    font-family: Mitr;
+    margin-top: 35px;
+
+}
+
+#westwing {
+    font-family: Libre Caslon Display;
+}
+
+.to_be_sold {
+    margin-top: 150px;
+}
+
+.best-next {
+    display: flex;
+
+}
+
+.carets {
+    margin-left: 87.5%;
+    font-size: xx-large;
+}
+
+#left-caret {
+    color: darkgrey;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.product-list {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.product {
+
+    position: relative;
+    margin-bottom: 240px;
+    height: 240px;
+    width: 240px;
+    border-radius: 15px;
+}
+
+.product img {
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.name {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.badge {
+    position: absolute;
+    top: px;
+    left: 30px;
+    color: red;
+    font-size: 12px;
+    padding: 6x 7px;
+    border-radius: 5px;
+}
+
+.discount {
+    position: absolute;
+    top: px;
+    right: 10px;
+    color: black;
+    font-size: 12px;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+.restyle {
+    margin-top: 150px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.restyle h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.restyle p {
+    font-size: 16px;
+}
+
+.promotion {
+    display: flex;
+    gap: 160px;
+    width: 100%;
+    height: 75Vh;
+    justify-content: space-between;
+    margin: 10% auto;
+}
+
+.image-container {
+
+    height: 100%;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+
+.promotion img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.text-container {
+    width: 50%;
+    text-align: left;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.subtext {
+    font-size: 45px;
+    color: gray;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+
+.text-container h2 {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#title {
+    font-size: 45px;
+}
+
+.text-container p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.shop-button {
+    background: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    height: 70px;
+    width: 160px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 50px;
+}
+
+.shop-button:hover {
+    background: black;
+    color: white;
+}
+
+.offer {
+    display: flex;
+    padding-left: 65px;
+    gap: 180px;
+    margin-top: 120px;
+}
+
+.offer-content {
+    max-width: 450px;
+    text-align: left;
+
+}
+
+.offer-image img {
+    width: 500px;
+    height: 540px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.subtext {
+    font-size: 12px;
+    color: gray;
+
+}
+
+.offer-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.offer-content p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.shop-btn {
+    background: transparent;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 14px;
+    height: 70px;
+    width: 160px;
+    color: black;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+
+.shop-btn:hover {
+    background: black;
+    color: white;
+}
+
+h6 {
+    font-size: 45px;
+    text-align: left;
+    margin-left: 380px;
+    margin-bottom: 20px;
+}
+
+#we {
+    margin-left: 500px;
+    margin-top: auto;
+    margin-bottom: 200px;
+}
+
+.con {
+    display: flex;
+    margin-bottom: 270px;
+    margin-top: 150px;
+    justify-content: space-between;
+
+}
+
+.text {
+    text-align: center;
+}
+
+#rev {
+    margin-left: 500px;
+    margin-bottom: 220px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65vh;
+}
+
+.tree3 {
+    width: 50%;
+}
+
+.tree3 img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#to {
+    margin-left: 21px;
+}
+
+.both2 {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.both2 img {
+    height: 100px;
+    width: 100px;
+
+}
+
+#sort {
+    margin-left: 200px;
+    line-height: 35px;
+    margin-bottom: 8%;
+}
+
+.three {
+    margin-top: 150px;
+    width: 50%;
+}
+
+.line {
+    display: flex;
+    gap: 55%;
+    margin-top: 45px;
+}
+
+footer {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.footer-links {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.f-link {
+    display: grid;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.link p {
+    text-transform: uppercase;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 10px;
+
+}
+
+.link a {
+    line-height: 1.8;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+
+.end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
